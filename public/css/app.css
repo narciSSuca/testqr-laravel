@@ -36,7 +36,8 @@ button {
   background-color:#3F51B5;
   color:#fff;
   font-weight:600;
-  border-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
   width:100%;
 
 }
