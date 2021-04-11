@@ -17,6 +17,7 @@ form {
   justify-content: center;
   padding-top: 40vh;
   width: 500px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
 }
 
@@ -25,7 +26,6 @@ input {
   outline: none;
   margin-bottom: 0;
   padding: 10px;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border: 0px;
   border-bottom:1px solid #eee;
 }
@@ -39,5 +39,4 @@ button {
   border-bottom-left-radius:5px;
   border-bottom-right-radius:5px;
   width:100%;
-
 }
