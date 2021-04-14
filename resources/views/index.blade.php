@@ -6,10 +6,12 @@
     <title>Тест qr</title>
   </head>
   <body>
-    <form class="" action="actform" method="post">
+    <div class="content">
+      <form class="" action="pngactform" method="post">
       @csrf
       <input type="text" name="content" value="test">
       <button type="submit" name="button">закодировать</button>
     </form>
+    </div>
      </body>
 </html>

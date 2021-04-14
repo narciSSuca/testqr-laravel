@@ -9,14 +9,33 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  height: 100vh;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 5vw;
+}
+
+.qr-content {
+  display: flex;
+  flex-direction: row;
+
+  height: 400px;
+  width: 500px;
+
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+}
+
+.qr-content img {
+  height: 400px;
+  width: 400px;
+}
+
+.qr-content a {
+  padding-top:20px;
 }
 
 form {
@@ -45,7 +64,6 @@ button {
   border:none;
   background-color:#3F51B5;
   color:#fff;
-  outline: none;
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   font-weight:600;
   border-bottom-left-radius:5px;

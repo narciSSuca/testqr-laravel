@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 Route::post('/actform', 'App\Http\Controllers\QrController@QrCode');
+Route::post('/pngactform', 'App\Http\Controllers\QrController@QrCodePng');
+
 //
 Route::get('/clear', function() {
     Artisan::call('cache:clear');
