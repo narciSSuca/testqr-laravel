@@ -17,10 +17,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::post('/actform', 'App\Http\Controllers\QrController@QrCode');
 Route::post('/pngactform', 'App\Http\Controllers\QrController@QrCodePng');
 
-//
+//костыли проекта
 Route::get('/clear', function() {
     Artisan::call('cache:clear');
     Artisan::call('config:cache');

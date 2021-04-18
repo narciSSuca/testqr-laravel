@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #e5e5e5;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -34,8 +34,23 @@ body {
   width: 400px;
 }
 
-.qr-content a {
-  padding-top:20px;
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.buttons a {
+  color: #fff;
+  box-shadow:6px 6px 10px 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.button-download {
+  background: #00FA9A;
 }
 
 form {
